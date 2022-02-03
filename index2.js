@@ -76,12 +76,25 @@ const promptUser = () => {
         if (githubInput) {
           return true;
         } else {
-          console.log('Please enter your description');
+          console.log('Please enter contributors');
           return false;
         }
       }
     },
     //
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Any Tests?',
+      validate: githubInput => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log('Please enter any tests');
+          return false;
+        }
+      }
+    },
   ]);
 };
 
@@ -98,21 +111,16 @@ Add a New Project
   }
   return inquirer
     .prompt([
-      {
-        type: 'checkbox',
-        name: 'toc',
-        message: 'Would You like To Add A Table of Contents? (Check all that apply)',
-        choices: ['Project Title', 'Description', 'Table of Contents', 'Installation', 'Usage', 'Contributiors', 'Tests', 'Questions']
-      },
+   
       {
         type: 'input',
-        name: 'How to Install',
-        message: 'Provide a description of how to install project (Required)',
+        name: 'githubUsername',
+        message: 'What is your Github Username? (Required)',
         validate: descriptionInput => {
           if (descriptionInput) {
             return true;
           } else {
-            console.log('You need to enter a project description!');
+            console.log('Please provide me with your github user name!');
             return false;
           }
         }
@@ -120,29 +128,18 @@ Add a New Project
   
       {
         type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
+        name: 'email',
+        message: 'What is your email adress? (Required)',
         validate: linkInput => {
           if (linkInput) {
             return true;
           } else {
-            console.log('You need to enter a project GitHub link!');
+            console.log('You need to enter an email address!');
             return false;
           }
         }
       },
-      {
-        type: 'confirm',
-        name: 'feature',
-        message: 'Would you like to feature this project?',
-        default: false
-      },
-      {
-        type: 'confirm',
-        name: 'confirmAddProject',
-        message: 'Would you like to enter another project?',
-        default: false
-      }
+     
     ])
     .then(projectData => {
       portfolioData.projects.push(projectData);

@@ -10,17 +10,16 @@ Project Title: ${templateData.title}
 
 Description: ${templateData.description}
 
-Table Of Contents:${templateData.toc}
+Installation:${templateData.installation}
 
-Installation:
+Usage: ${templateData.usage}
 
-Usage: 
+Who Contributied: ${templateData.contributors}
 
-Who Contributied: 
+Tests: ${templateData.tests}
 
-Tests: 
-
-Questions:
+Questions:${templateData.githubUsername}
+            ${templateData.email}
 
     `;
   };
