@@ -1,17 +1,17 @@
 
 # README.md Generator 
 
-## Project Title: My life 
+## Project Title: q
 
-* Description: I just built a node app 
+* Description: q
 
-* Installation:I did the basics though 
+* Installation:q
 
-* Usage: No Usage 
+* Usage: q
 
-* Who Contributied: Me Myself and I 
+* Who Contributied: q
 
-* Tests: None
+* Tests: q
 
-* Questions:undefined
-            undefined
+* Questions:q,
+            q

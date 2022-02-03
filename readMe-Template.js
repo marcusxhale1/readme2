@@ -18,7 +18,7 @@ module.exports = templateData => {
 
 * Tests: ${templateData.tests}
 
-* Questions:${templateData.githubUsername}
+* Questions:${templateData.githubUsername},
             ${templateData.email}
 `;
   };
