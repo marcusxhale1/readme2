@@ -6,21 +6,20 @@ module.exports = templateData => {
     return `
 # README.md Generator 
 
-Project Title: ${templateData.title}
+## Project Title: ${templateData.title}
 
-Description: ${templateData.description}
+* Description: ${templateData.description}
 
-Installation:${templateData.installation}
+* Installation:${templateData.installation}
 
-Usage: ${templateData.usage}
+* Usage: ${templateData.usage}
 
-Who Contributied: ${templateData.contributors}
+* Who Contributied: ${templateData.contributors}
 
-Tests: ${templateData.tests}
+* Tests: ${templateData.tests}
 
-Questions:${templateData.githubUsername}
+* Questions:${templateData.githubUsername}
             ${templateData.email}
-
-    `;
+`;
   };
   
