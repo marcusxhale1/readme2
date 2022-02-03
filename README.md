@@ -1,17 +1,17 @@
 
 # README.md Generator 
 
-## Project Title: Practice
+## Project Title: ReadMe Generator
 
-* Description: This is just for hw purposes
+* Description: A generator to create a readme easily 
 
-* Installation:None
+* Installation:Download the code, install node, install inqurier and rune node on the index2 js and it will generate and ReadMe for you. 
 
-* Usage: Readme Generator
+* Usage: Generating a readme easier 
 
 * Who Contributied: Me myself and I 
 
 * Tests: None
 
-* Questions:marcusxhale1,
+* Questions:Marcusxhale1,
             marcusxhale1@gmail.com
