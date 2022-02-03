@@ -1,17 +1,17 @@
 
 # README.md Generator 
 
-## Project Title: q
+## Project Title: Practice
 
-* Description: q
+* Description: This is just for hw purposes
 
-* Installation:q
+* Installation:None
 
-* Usage: q
+* Usage: Readme Generator
 
-* Who Contributied: q
+* Who Contributied: Me myself and I 
 
-* Tests: q
+* Tests: None
 
-* Questions:q,
-            q
+* Questions:marcusxhale1,
+            marcusxhale1@gmail.com

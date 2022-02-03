@@ -133,7 +133,6 @@ const promptProject = portfolioData => {
 //this asks the questions in order 
 
 promptUser()
-  .then(promptUser)
   .then(portfolioData => {
     console.log(portfolioData);
     const pageHTML = generatePage(portfolioData);
